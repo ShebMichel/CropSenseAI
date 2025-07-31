@@ -4,7 +4,7 @@ CropSenseAI is an AI-powered plant health advisor that uses **image** and **voic
 
 ## 🗺️ Schematic Overview
 
-![Schematic Overview](Flowchart_of_Diagnostic_Process.png)
+![Schematic Overview](assets/Flowchart_of_Diagnostic_Process.png)
 
 > This diagram summarizes the project flow to health recommendations for your plants.
 
@@ -22,10 +22,11 @@ CropSenseAI is an AI-powered plant health advisor that uses **image** and **voic
 ```
 CropSenseAI/
 │
-├── trap                  # Main Kaggle notebook (multimodal inference pipeline)
-├── assets/               # Schematic diagram and any sample inputs
-├── README.md             # This file
-└── requirements.txt      # Package dependencies (optional)
+├── cropsenseai.ipynb                                    # Main Kaggle notebook (multimodal inference pipeline)
+├── assets/Flowchart_of_Diagnostic_Process.png           # Schematic diagram and any sample inputs
+|── results/Analysis_Output.png                          # Schematic diagram and any sample inputs
+├── README.md                                            # The documentation to help use this repository
+└── requirements.txt                                     # Package dependencies 
 ```
 
 ## 🧬 Workflow
@@ -60,7 +61,7 @@ CropSenseAI uses:
 - Optional image annotation and treatment tips
 
 
-![Output Example](Analysis_Output.png)
+![Output Example](results/Analysis_Output.png)
 
 
 ## 🛠️ How to Run
