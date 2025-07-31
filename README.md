@@ -2,6 +2,12 @@
 
 CropSenseAI is an AI-powered plant health advisor that uses **image** and **voice input** to provide real-time predictions about plant conditions. This multimodal system combines vision models, audio processing, and rule-based knowledge to detect plant diseases, nutrient deficiencies, and pest infestations.
 
+## 🗺️ Schematic Overview
+
+![Schematic Overview](Flowchart_of_Diagnostic_Process.png)
+
+> This diagram summarizes the project flow to health recommendations for your plants.
+
 ## 🚀 Features
 
 - 🔍 **Image-based diagnosis** using advanced deep learning models.
@@ -30,6 +36,7 @@ CropSenseAI/
 4. Audio is processed by a speech model (e.g., Whisper or Wav2Vec).
 5. Rule-based logic integrates results and gives a **diagnosis + recommendation**.
 
+
 ## 📦 Dependencies
 
 - `transformers`
@@ -51,6 +58,10 @@ CropSenseAI uses:
 - Diagnosis class (e.g., "Powdery mildew", "Nitrogen deficiency")
 - Confidence score
 - Optional image annotation and treatment tips
+
+
+![Output Example](Analysis_Output.png)
+
 
 ## 🛠️ How to Run
 
