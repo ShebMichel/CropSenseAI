@@ -51,8 +51,8 @@ CropSenseAI/
 ## 🧠 Model Used
 
 CropSenseAI uses:
-- Vision encoder: CNN or Transformer-based classifier
-- Audio encoder: Pre-trained speech model for transcription or classification
+- Vision encoder: A handcrafted image feature extractor based on basic image statistics (brightness, contrast, green dominance, etc.) from resized RGB images.
+- Audio encoder: A pre-trained automatic speech recognition (ASR) model (openai/whisper-tiny.en) using Hugging Face’s pipeline to transcribe spoken input into text.
 - Logic: Rule-based Python layer for interpretation
 
 ## 🖼️ Output
