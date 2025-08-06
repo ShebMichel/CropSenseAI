@@ -22,9 +22,10 @@ CropSenseAI is an AI-powered plant health advisor that uses **image** and **voic
 ```
 CropSenseAI/
 │
-├── cropsenseai.ipynb                                    # Main Kaggle notebook (multimodal inference pipeline)
+├── cropsenseai-nomobiledeployment.ipynb                 # Kaggle notebook without deployment
+├── cropsenseai-gradiodeployment.ipynb                   # Kaggle notebook with gradio deployment
 ├── assets/Flowchart_of_Diagnostic_Process.png           # Schematic diagram and any sample inputs
-|── results/Analysis_Output.png                          # Schematic diagram and any sample inputs
+|── results/Analysis_Output.png                          # Results output using cropsenseai-nomobiledeployment.ipynb
 ├── README.md                                            # The documentation to help use this repository
 └── requirements.txt                                     # Package dependencies 
 ```
