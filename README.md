@@ -79,4 +79,5 @@ We welcome contributions. Please fork this repository, open an issue or a pull r
 
 ## 📬 Contact
 
-Created by Michel Nzikou – [michel.nzikoumamboukou@uwa.edu.au](mailto:michel.nzikoumamboukou@uwa.edu.au)
+Created by Michel Nzikou – [michel.nzikoumamboukou@uwa.edu.au](mailto:michel.nzikoumamboukou@uwa.edu.au) or [michel.nzikou@alumni.uleth.ca](mailto:michel.nzikou@alumni.uleth.ca)
+
